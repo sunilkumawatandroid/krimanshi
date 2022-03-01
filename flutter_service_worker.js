@@ -30,14 +30,14 @@ const RESOURCES = {
 "assets/assets/png/facebook_icon.png": "ae8f2ba1bc89b0295fb76134b8323b03",
 "assets/assets/png/product.png": "78458b5b4d9970ef0596810e144f0c72",
 "index.html": "05c5319a1d11cde0ba94f87791a566b0",
-"/": "05c5319a1d11cde0ba94f87791a566b0",
+//"/": "05c5319a1d11cde0ba94f87791a566b0",
 "main.dart.js": "a68aff1f27ef14dafc0b9d4f4adc1510"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
+ // "/",
 "main.dart.js",
 "index.html",
 "assets/NOTICES",
@@ -45,6 +45,7 @@ const CORE = [
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
+console.log('install');
   self.skipWaiting();
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
@@ -58,7 +59,8 @@ self.addEventListener("install", (event) => {
 // install. If this service worker is upgrading from one with a saved
 // MANIFEST, then use this to retain unchanged resource files.
 self.addEventListener("activate", function(event) {
-  return event.waitUntil(async function() {
+ console.log('activate');
+ return event.waitUntil(async function() {
     try {
       var contentCache = await caches.open(CACHE_NAME);
       var tempCache = await caches.open(TEMP);
