@@ -37,15 +37,15 @@ const RESOURCES = {
 "assets/assets/png/facebook_icon.png": "ae8f2ba1bc89b0295fb76134b8323b03",
 "assets/assets/png/product.png": "5a620d427bc61a98b63ca948cb3e925a",
 "assets/assets/png/product_banner.jpg": "636f8e97e9eb7e275a374150cbe68cf0",
-"index.html": "e0565e9d7d58da7efc3cbc79c1badc5e",
-"/": "e0565e9d7d58da7efc3cbc79c1badc5e",
-"main.dart.js": "b60aeebc2415604934b407a06cd62763"
+"index.html": "6c700674521ecc7b763c2f5735281de7",
+"/": "6c700674521ecc7b763c2f5735281de7",
+"main.dart.js": "179485b7e24c2fe17d5f5b17e2b9db88"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  //"/",
+ // "/",
 "main.dart.js",
 "index.html",
 "assets/NOTICES",
