@@ -15,21 +15,37 @@ const RESOURCES = {
 "canvaskit/profiling/canvaskit.js": "f3bfccc993a1e0bfdd3440af60d99df4",
 "canvaskit/canvaskit.wasm": "04ed3c745ff1dee16504be01f9623498",
 "canvaskit/canvaskit.js": "43fa9e17039a625450b6aba93baf521e",
-"assets/AssetManifest.json": "dc5a31ea741603e81555e7d8401663cb",
+"assets/AssetManifest.json": "d7662f08342823f0e1d2f53cd1cbb4be",
 "assets/NOTICES": "fdf9af65e1e6aaebddb4dd1426b0baf0",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
+"assets/assets/images/nikhil.jpg": "9f49dd84e885dddd23710a00ca90719e",
+"assets/assets/images/Animal1.jpg": "5e3313fe97f20fb877d4517dcc72f46a",
+"assets/assets/images/Coverimage1.jpg": "7194a1c293ecf54ac84123fc8efe2ec0",
+"assets/assets/images/Animal3.jpg": "11fd7ccde8d86b0ac0e6b8f777d008d3",
+"assets/assets/images/feedis_scarce.jpg": "e42114a5b6fe2c33452ff54c24908613",
+"assets/assets/images/background.jpg": "691d03861e946b5419324cff22fcf709",
+"assets/assets/images/underfedcow.jpg": "5c6257973db0eebaee92bab551957476",
+"assets/assets/images/Anda.jpg": "a229d2f0a028045c2e878e1d728c07f2",
+"assets/assets/images/animal2.jpg": "06e1332a94c7ee5b2c01f6c0e444a5ae",
+"assets/assets/images/wastetovalue.jpg": "8f0e95557ddbfbbab97e941ba6363b1f",
+"assets/assets/png/linkedIn_icon.png": "84bcb990c943c440ccab1681a991aadb",
 "assets/assets/png/logo.png": "05e44b17bbfe4612c23137cec38cfcee",
-"index.html": "b2abd20a8430ea87687cabe517bdadaa",
-"/": "b2abd20a8430ea87687cabe517bdadaa",
-"main.dart.js": "fe58fc0281fe5fd37f2472f15924b8cb"
+"assets/assets/png/twitter_icon.png": "19a0ad93c373c79655f19892477da728",
+"assets/assets/png/khal.png": "f58e7ddbeb4ac583caa15b3a386cab44",
+"assets/assets/png/facebook_icon.png": "ae8f2ba1bc89b0295fb76134b8323b03",
+"assets/assets/png/product.png": "5a620d427bc61a98b63ca948cb3e925a",
+"assets/assets/png/product_banner.jpg": "636f8e97e9eb7e275a374150cbe68cf0",
+"index.html": "e0565e9d7d58da7efc3cbc79c1badc5e",
+"/": "e0565e9d7d58da7efc3cbc79c1badc5e",
+"main.dart.js": "b60aeebc2415604934b407a06cd62763"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
- // "/",
+  //"/",
 "main.dart.js",
 "index.html",
 "assets/NOTICES",
