@@ -21,15 +21,15 @@ const RESOURCES = {
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/assets/png/logo.png": "05e44b17bbfe4612c23137cec38cfcee",
-"index.html": "2ec2f596b35925228209cac437e6de7e",
-"/": "2ec2f596b35925228209cac437e6de7e",
-"main.dart.js": "1a00b3a35c8378c9043643c7a54b00f7"
+"index.html": "219e026815560fadcc7fe1b7ab7c93fa",
+"/": "219e026815560fadcc7fe1b7ab7c93fa",
+"main.dart.js": "493df9cda85cca6a623b30461441dc29"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
- // "/",
+  "/",
 "main.dart.js",
 "index.html",
 "assets/NOTICES",
