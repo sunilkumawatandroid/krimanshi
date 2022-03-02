@@ -15,23 +15,15 @@ const RESOURCES = {
 "canvaskit/profiling/canvaskit.js": "f3bfccc993a1e0bfdd3440af60d99df4",
 "canvaskit/canvaskit.wasm": "04ed3c745ff1dee16504be01f9623498",
 "canvaskit/canvaskit.js": "43fa9e17039a625450b6aba93baf521e",
-"assets/AssetManifest.json": "f65e70e0ba74a145a364328f68ba07ff",
+"assets/AssetManifest.json": "dc5a31ea741603e81555e7d8401663cb",
 "assets/NOTICES": "fdf9af65e1e6aaebddb4dd1426b0baf0",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
 "assets/FontManifest.json": "dc3d03800ccca4601324923c0b1d6d57",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/assets/images/nikhil.jpg": "9f49dd84e885dddd23710a00ca90719e",
-"assets/assets/images/about.jpg": "8d8b146607841dc3238c37dfd6e9f8d4",
-"assets/assets/images/product_banner.jpg": "636f8e97e9eb7e275a374150cbe68cf0",
-"assets/assets/png/linkedIn_icon.png": "84bcb990c943c440ccab1681a991aadb",
 "assets/assets/png/logo.png": "05e44b17bbfe4612c23137cec38cfcee",
-"assets/assets/png/twitter_icon.png": "19a0ad93c373c79655f19892477da728",
-"assets/assets/png/khal.png": "ad5f84e2432509002ecd506a069e8fd1",
-"assets/assets/png/facebook_icon.png": "ae8f2ba1bc89b0295fb76134b8323b03",
-"assets/assets/png/product.png": "78458b5b4d9970ef0596810e144f0c72",
-"index.html": "05c5319a1d11cde0ba94f87791a566b0",
-//"/": "05c5319a1d11cde0ba94f87791a566b0",
-"main.dart.js": "a68aff1f27ef14dafc0b9d4f4adc1510"
+"index.html": "2ec2f596b35925228209cac437e6de7e",
+"/": "2ec2f596b35925228209cac437e6de7e",
+"main.dart.js": "1a00b3a35c8378c9043643c7a54b00f7"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -45,7 +37,6 @@ const CORE = [
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
-console.log('install');
   self.skipWaiting();
   return event.waitUntil(
     caches.open(TEMP).then((cache) => {
@@ -59,8 +50,7 @@ console.log('install');
 // install. If this service worker is upgrading from one with a saved
 // MANIFEST, then use this to retain unchanged resource files.
 self.addEventListener("activate", function(event) {
- console.log('activate');
- return event.waitUntil(async function() {
+  return event.waitUntil(async function() {
     try {
       var contentCache = await caches.open(CACHE_NAME);
       var tempCache = await caches.open(TEMP);

@@ -1,7 +1,7 @@
 {
     "name": "krimanshi_web",
     "short_name": "krimanshi_web",
-    "start_url": "/krimanshi/",
+    "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
