@@ -1,7 +1,7 @@
 {
-    "name": "Krimanshi",
-    "short_name": "Krimanshi",
-    "start_url": "/krimanshi/",
+    "name": "giisty_web",
+    "short_name": "giisty_web",
+    "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
